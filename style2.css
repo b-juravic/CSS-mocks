@@ -1,0 +1,23 @@
+/* PART II */
+
+/* MOCK 1 */
+body {
+  display: flex;
+  width: 100%;
+}
+
+.btn-container {
+
+}
+
+.sign-up-btn {
+  background-color: #80ccff;
+  color: white;
+  height: 50px;
+  width: 125px;
+  font-size: medium;
+  font-weight: bold;
+  border-radius: 10px;
+  position: relative;
+  justify-content: center;
+}
