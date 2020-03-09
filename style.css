@@ -1,6 +1,93 @@
-/* Exercise 2 */
+/* Exercise 4 */
 
 body {
+  margin: 0;
+  border: 5px solid black;
+  height: 100vh;
+  position: relative;
+}
+
+.one {
+  width: 400px;
+  height: 400px;
+  background-color: red;
+  position: relative;
+}
+
+.two {
+  width: 300px;
+  height: 300px;
+  background-color: yellow;
+  position: absolute;
+  bottom: 0px;
+  right: 0px;
+}
+
+.three {
+  width: 200px;
+  height: 200px;
+  background-color: green;
+  position: relative;
+  top: -100px;
+  left: -100px;
+}
+
+.four {
+  width: 100px;
+  height: 100px;
+  background-color: blue;
+  position: absolute;
+  bottom: 0px;
+  right: 0px; 
+}
+
+ /* Exercise 3 
+
+body {
+  margin: 0;
+  border: 5px solid black;
+  height: 100vh;
+  position: relative;
+}
+
+.one {
+  width: 400px;
+  height: 400px;
+  background-color: red;
+}
+
+.two {
+  width: 300px;
+  height: 300px;
+  background-color: yellow;
+}
+
+.three {
+  width: 200px;
+  height: 200px;
+  background-color: green;
+  position: relative;
+  left: 400px;
+  top: 200px;
+  /* tried:
+  position: aboslute;
+  top: 200;
+  left:200;
+  Didn't move at all.
+}
+
+.four {
+  width: 100px;
+  height: 100px;
+  background-color: blue;
+  position: relative;
+  top: 100px;
+}  */
+
+
+/* Exercise 2 */
+
+/* body {
   margin: 0;
   border: 5px solid black;
   height: 100vh;
@@ -32,7 +119,7 @@ body {
   position: absolute;
   top: 0px;
   right: 0px;
-}
+} */
 /* Exercise 1. */
 /* body {
   margin: 0;
